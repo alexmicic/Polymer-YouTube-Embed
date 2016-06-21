@@ -1,6 +1,6 @@
 # Polymer \<youtube-embed\> element
 
-This element should allow easily embed youtube videos. All you have to do is to find youtube ID which is always in the browser link and has a format like this: "https://www.youtube.com/watch?v=`v7rifrCEJXs`".
+This element should allow easily embed youtube videos. All you have to do is to find youtube ID which is always in the browser link and has a format like this: "https://www.youtube.com/watch?v=v7rifrCEJXs", where you need this part `v7rifrCEJXs`.
 Insert that ID into the `<youtube-embed>` tag as a parameter `youtube_id="v7rifrCEJXs"` and you are all setup.
 
 # Requirements
