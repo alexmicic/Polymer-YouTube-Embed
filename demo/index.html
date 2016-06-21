@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>youtube-embed demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+
+    <link rel="import" href="../youtube-embed.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+        .centered:not([style-scope]):not(.style-scope){
+            max-width: 800px;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="vertical-section-container centered">
+      <h3>Basic youtube-embed Demo - Easily embed youtube videos</h3>
+      <p>All you have to do is to find youtube ID which is always in the browser link and has a format like this: "3JZ4pnNtyxQ".
+      Insert that ID into the 'youtube-embed' tag as a parameter and you are all setup.</p>
+      <demo-snippet>
+        <template>
+          <youtube-embed youtube_id="v7rifrCEJXs"></youtube-embed>
+        </template>
+      </demo-snippet>
+    </div>
+
+  </body>
+</html>
