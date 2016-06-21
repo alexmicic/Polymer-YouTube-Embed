@@ -1,7 +1,10 @@
 # Polymer \<youtube-embed\> element
 
-This element should allow easily embed youtube videos. All you have to do is to find youtube ID which is always in the browser link and has a format like this: "3JZ4pnNtyxQ".
+This element should allow easily embed youtube videos. All you have to do is to find youtube ID which is always in the browser link and has a format like this: "https://www.youtube.com/watch?v=`v7rifrCEJXs`".
 Insert that ID into the `<youtube-embed>` tag as a parameter `youtube_id="v7rifrCEJXs"` and you are all setup.
+
+# Requirements
+You need to have installed Node.js and, bower and polymer to start the application and demo.
 
 ## Install the Polymer-CLI
 
